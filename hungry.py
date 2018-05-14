@@ -4,5 +4,7 @@ if hungry == "yes" :
     print("eat pizza")
     print("eat burger")
 else:
-    print("do your work")
+    devpreview = input("Are you devpreview")
+    if devpreview == "yes":
+     print("Yes i m devpreview")
 
